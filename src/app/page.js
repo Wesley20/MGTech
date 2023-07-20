@@ -9,7 +9,7 @@ export default function Home() {
 
   const handleButtonClick = () => {
     setShowMessage(true);
-    navigator.clipboard.writeText("meuemail@meuemail.com");
+    navigator.clipboard.writeText("m_gtech@hotmail.com");
   };
 
   useEffect(() => {
@@ -28,12 +28,11 @@ export default function Home() {
           seu negócio com facilidade e profissionalismo.
         </p>
       </div>
-      <div>
         <p className={styles.contato}>Contatos:</p>
         <div className={styles.opcoes}>
           <div>
             <Link
-              href="https://wa.me/16988717770?text=Olá,%20gostaria%20de%20um%20orçamento"
+              href="https://wa.me/16982259594?text=Olá,%20gostaria%20de%20um%20orçamento"
               target="_blank"
             >
               <div className={styles.botaoWhatsapp}>
@@ -65,7 +64,6 @@ export default function Home() {
               <div className={styles.done2}></div>
             )}
           </div>
-        </div>
       </div>
 
       <div className={styles.center}>
