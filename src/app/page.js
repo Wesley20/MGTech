@@ -54,7 +54,7 @@ export default function Home() {
                 width={40}
                 height={40}
               />
-              <p onClick={() => handleButtonClick()}>meuemail@meuemail.com</p>
+              <p onClick={() => handleButtonClick()}>m_gtech@hotmail.com</p>
             </div>
             {showMessage ? (
               <div className={styles.done1}>
