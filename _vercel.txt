@@ -1,0 +1,1 @@
+vc-domain-verify=mg-tech.versel.app,7f3f634202ee84b55f84
