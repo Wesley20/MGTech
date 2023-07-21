@@ -13,10 +13,10 @@ export default function Home() {
   };
 
   useEffect(() => {
-    console.log("teste");
+    // console.log("teste");
     setTimeout(() => {
       setShowMessage(false);
-      console.log("teste");
+      // console.log("teste");
     }, 5000);
   }, [showMessage]);
 
@@ -64,6 +64,22 @@ export default function Home() {
               <div className={styles.done2}></div>
             )}
           </div>
+          <div className={styles.img}>
+            <Link
+              href="https://www.instagram.com/mg_tech_oficial/"
+              target="_blank"
+            >
+            <div className={styles.botaoInsta}>
+              <Image
+                src="/img/instagram.png"
+                alt="Next.js Logo"
+                width={40}
+                height={40}
+              />
+              <p>Instagram</p>
+            </div>
+            </Link>
+          </div>
       </div>
 
       <div className={styles.center}>
@@ -71,37 +87,37 @@ export default function Home() {
       </div>
 
       <div className={styles.grid}>
-        <p className={styles.card}>
+        <div className={styles.card}>
           <h2>Tecnologia</h2>
           <p>
             Focados em trazer sempre melhores e mais atuais soluções
             tecnológicas disponíveis no mercado.
           </p>
-        </p>
+        </div>
 
-        <p className={styles.card}>
+        <div className={styles.card}>
           <h2>Facilidade</h2>
           <p>
             Entre em contato conosco, estamos sempre a disposição para levar a
             melhor experiência aos nossos clientes.
           </p>
-        </p>
+        </div>
 
-        <p className={styles.card}>
+        <div className={styles.card}>
           <h2>Solução</h2>
           <p>
             Sabemos que cada negócio tem sua demanda por isso procuramos atender
             nossos cliente de maneira acertiva.
           </p>
-        </p>
+        </div>
 
-        <p className={styles.card}>
+        <div className={styles.card}>
           <h2>Negócios</h2>
           <p>
             Alavanque seus negócios de paginas estaticas para apresentar seu
             negócio até sistemas complexos para gerir suas empresa
           </p>
-        </p>
+        </div>
       </div>
     </main>
   );

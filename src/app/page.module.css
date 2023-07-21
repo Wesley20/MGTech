@@ -152,6 +152,7 @@
   border: 1px solid #ffffff70;
   border-radius: 20px;
   padding: 12px 10px;
+  margin-left: 70px;
   box-shadow: 0 0 .2rem #fff,
               0 0 .2rem #fff,
               0 0 1rem #1365fe,
@@ -178,6 +179,24 @@
 .done2 {
   width: 40px;
   margin: 0 13px;
+}
+
+.botaoInsta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #ffffff70;
+  border-radius: 20px;
+  padding: 12px 10px;
+  box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 1rem #fe139c,
+              0 0 0.8rem #fef613,
+              0 0 .8rem #3613fe,
+              inset 0 0 .8rem #fe139c;
+}
+.botaoInsta p {
+  margin-left: 5px;
 }
 
 /* Enable hover only on non-touch devices */
@@ -292,6 +311,11 @@
   .botaoCopiar {
     margin-left: 60px;
   }
+
+  .botaoInsta {
+    margin-top: 25px;
+  }
+  
 }
 
 /* Tablet and Smaller Desktop */
